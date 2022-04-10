@@ -8,9 +8,11 @@ You can see my GoodNotes in pdf:: https://drive.google.com/file/d/1XXFTAv5FIDxyE
 
 ## About this app
 
-🇬🇧 PlatziFinanzas is an app, designed in Sketch, for iOS environmnet, with the goal of get it done in code with SwiftUI Apple's library. This is to practice Platzi's online course. In this app, you can find _________
+🇬🇧 PlatziFinanzas is an application designed in Sketch for iOS with the purpose of bringing it to code.
+In this app you can manage our personal finances. Track your transactions, have got control over your budget and get statistics about your economy.
 
-🇪🇸 PlatziFinanzas es una aplicación diseñada para iOS con el propósito de llevarla a código en SwiftUI.
-En esta app puedes encontrar __________
+🇪🇸 PlatziFinanzas es una aplicación diseñada para iOS con el propósito de llevarla a código.
+En esta app tu puedes gestionar nuestras finanzas personales. Ver tus transacciones, tener control sobre tu presupuesto y obtener estadisticas sobre la salud de tu economia.
 
-🇵🇹 PlatziFinanzas é um aplicativo, projetado em Sketch, para iOS environmnet, com o objetivo de fazê-lo em código com a biblioteca da Apple SwiftUI. Isso é para praticar curso online da Platzi. Neste app, você encontra _________
+🇵🇹 PlatziFinanzas é um aplicativo desenvolvido em Sketch para iOS com o objetivo de trazê-lo para o código.
+Neste aplicativo você pode gerenciar nossas finanças pessoais. Acompanhe suas transações, tenha controle sobre seu orçamento e obtenha estatísticas sobre sua economia.
