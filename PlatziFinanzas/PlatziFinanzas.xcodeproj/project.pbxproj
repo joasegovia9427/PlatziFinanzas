@@ -13,6 +13,13 @@
 		2065E1922807A0E800B35733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2065E1902807A0E800B35733 /* Main.storyboard */; };
 		2065E1942807A0EB00B35733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2065E1932807A0EB00B35733 /* Assets.xcassets */; };
 		2065E1972807A0EB00B35733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2065E1952807A0EB00B35733 /* LaunchScreen.storyboard */; };
+		20668F7B2808EAC300BC5A6C /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20668F7A2808EAC300BC5A6C /* Transactions.storyboard */; };
+		20668F7E2808EC1500BC5A6C /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20668F7D2808EC1500BC5A6C /* Statistics.storyboard */; };
+		20668F812808EC4100BC5A6C /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20668F802808EC4100BC5A6C /* Budget.storyboard */; };
+		20668F842808EC9700BC5A6C /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20668F832808EC9700BC5A6C /* Add.storyboard */; };
+		20668F862808ECB500BC5A6C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20668F852808ECB500BC5A6C /* Profile.storyboard */; };
+		20668F882808EF9F00BC5A6C /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20668F872808EF9F00BC5A6C /* SignIn.storyboard */; };
+		20668F8B2809001C00BC5A6C /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20668F8A2809001C00BC5A6C /* Colours.xcassets */; };
 		20B192872807ABC600E1319B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065E18E2807A0E800B35733 /* ViewController.swift */; };
 		20B192882807ABC600E1319B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065E18A2807A0E800B35733 /* AppDelegate.swift */; };
 		20B192892807ABC600E1319B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065E18C2807A0E800B35733 /* SceneDelegate.swift */; };
@@ -20,6 +27,7 @@
 		20B1928D2807ABC600E1319B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2065E1932807A0EB00B35733 /* Assets.xcassets */; };
 		20B1928E2807ABC600E1319B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2065E1902807A0E800B35733 /* Main.storyboard */; };
 		20B192962807AC5000E1319B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B192952807AC5000E1319B /* MapKit.framework */; };
+		20E607D22808D9F1002DB3EB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20E607D12808D9F1002DB3EB /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +39,17 @@
 		2065E1932807A0EB00B35733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2065E1962807A0EB00B35733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2065E1982807A0EB00B35733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20668F7A2808EAC300BC5A6C /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		20668F7D2808EC1500BC5A6C /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		20668F802808EC4100BC5A6C /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		20668F832808EC9700BC5A6C /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		20668F852808ECB500BC5A6C /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		20668F872808EF9F00BC5A6C /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		20668F8A2809001C00BC5A6C /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
 		20B192922807ABC600E1319B /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B192932807ABC600E1319B /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/joasegovia9427/softwaredevelopment/PlatziFinanzas/PlatziFinanzas/Production.plist; sourceTree = "<absolute>"; };
 		20B192952807AC5000E1319B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		20E607D12808D9F1002DB3EB /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +100,38 @@
 			path = PlatziFinanzas;
 			sourceTree = "<group>";
 		};
+		20668F7C2808EBA300BC5A6C /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				20668F7D2808EC1500BC5A6C /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		20668F7F2808EC2500BC5A6C /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				20668F802808EC4100BC5A6C /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		20668F822808EC7900BC5A6C /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				20668F832808EC9700BC5A6C /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		20668F892809000400BC5A6C /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				20668F8A2809001C00BC5A6C /* Colours.xcassets */,
+			);
+			path = Colours;
+			sourceTree = "<group>";
+		};
 		20B192942807AC5000E1319B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +163,7 @@
 		20B192992807AE0900E1319B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				20668F892809000400BC5A6C /* Colours */,
 				20B1929A2807AE1D00E1319B /* Images */,
 			);
 			path = Resources;
@@ -140,6 +189,9 @@
 		20B1929C2807AE6F00E1319B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				20668F822808EC7900BC5A6C /* Add */,
+				20668F7F2808EC2500BC5A6C /* Budget */,
+				20668F7C2808EBA300BC5A6C /* Statistics */,
 				20B192A12807AEB000E1319B /* Main */,
 				20B192A02807AEA500E1319B /* Profile */,
 				20B1929F2807AE9900E1319B /* Transactions */,
@@ -157,6 +209,7 @@
 		20B1929E2807AE8C00E1319B /* Sing In */ = {
 			isa = PBXGroup;
 			children = (
+				20668F872808EF9F00BC5A6C /* SignIn.storyboard */,
 			);
 			path = "Sing In";
 			sourceTree = "<group>";
@@ -164,6 +217,7 @@
 		20B1929F2807AE9900E1319B /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
+				20668F7A2808EAC300BC5A6C /* Transactions.storyboard */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -171,6 +225,7 @@
 		20B192A02807AEA500E1319B /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				20668F852808ECB500BC5A6C /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -180,6 +235,7 @@
 			children = (
 				2065E1902807A0E800B35733 /* Main.storyboard */,
 				2065E18E2807A0E800B35733 /* ViewController.swift */,
+				20E607D12808D9F1002DB3EB /* View.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -260,9 +316,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E607D22808D9F1002DB3EB /* View.xib in Resources */,
 				2065E1972807A0EB00B35733 /* LaunchScreen.storyboard in Resources */,
 				2065E1942807A0EB00B35733 /* Assets.xcassets in Resources */,
+				20668F8B2809001C00BC5A6C /* Colours.xcassets in Resources */,
+				20668F7E2808EC1500BC5A6C /* Statistics.storyboard in Resources */,
 				2065E1922807A0E800B35733 /* Main.storyboard in Resources */,
+				20668F812808EC4100BC5A6C /* Budget.storyboard in Resources */,
+				20668F882808EF9F00BC5A6C /* SignIn.storyboard in Resources */,
+				20668F862808ECB500BC5A6C /* Profile.storyboard in Resources */,
+				20668F842808EC9700BC5A6C /* Add.storyboard in Resources */,
+				20668F7B2808EAC300BC5A6C /* Transactions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +511,7 @@
 				INFOPLIST_FILE = PlatziFinanzas/Base/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SignIn;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -476,7 +540,7 @@
 				INFOPLIST_FILE = PlatziFinanzas/Base/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SignIn;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
