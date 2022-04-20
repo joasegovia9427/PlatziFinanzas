@@ -2,8 +2,7 @@
 //  BudgetViewController.swift
 //  PlatziFinanzas
 //
-//  Created by Andres Silva on 11/15/18.
-//  Copyright © 2018 Platzi. All rights reserved.
+//  Created by Joaquin Segovia on 14/4/22.
 //
 
 import UIKit
@@ -15,7 +14,7 @@ class BudgetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         let cell = UINib(nibName: "TransactionsCell", bundle: Bundle.main)
         tableView.register(cell, forCellReuseIdentifier: "cell")
     }

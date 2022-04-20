@@ -2,19 +2,15 @@
 //  ViewController.swift
 //  PlatziFinanzas
 //
-//  Created by Andres Silva on 11/14/18.
-//  Copyright © 2018 Platzi. All rights reserved.
+//  Created by Joaquin Segovia on 14/4/22.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
 }
 

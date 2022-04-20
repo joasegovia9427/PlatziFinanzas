@@ -2,8 +2,7 @@
 //  TransactionsViewController.swift
 //  PlatziFinanzas
 //
-//  Created by Andres Silva on 11/14/18.
-//  Copyright © 2018 Platzi. All rights reserved.
+//  Created by Joaquin Segovia on 14/4/22.
 //
 
 import UIKit
@@ -17,7 +16,7 @@ class TransactionsViewController: UIViewController {
         }
         return view
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

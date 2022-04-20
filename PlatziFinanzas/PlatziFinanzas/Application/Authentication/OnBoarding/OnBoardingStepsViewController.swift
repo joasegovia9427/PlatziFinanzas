@@ -2,8 +2,7 @@
 //  OnBoardingStepsViewController.swift
 //  PlatziFinanzas
 //
-//  Created by Andres Silva on 11/14/18.
-//  Copyright © 2018 Platzi. All rights reserved.
+//  Created by Joaquin Segovia on 14/4/22.
 //
 
 import UIKit
@@ -17,21 +16,19 @@ class OnBoardingStepsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         titleLabel.text = item?.title
         descriptionLabel.text = item?.description
         onBoaringImage.image = UIImage(named: item?.imageName ?? "")
     }
     
-
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
 }

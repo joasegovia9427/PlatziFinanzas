@@ -2,8 +2,7 @@
 //  OnBoardingViewController.swift
 //  PlatziFinanzas
 //
-//  Created by Andres Silva on 11/14/18.
-//  Copyright © 2018 Platzi. All rights reserved.
+//  Created by Joaquin Segovia on 14/4/22.
 //
 
 import UIKit
@@ -39,10 +38,10 @@ class OnBoardingViewController: UIPageViewController {
         }
         return items
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         delegate = self
         dataSource = self
         
@@ -53,13 +52,12 @@ class OnBoardingViewController: UIPageViewController {
     func updateContainerView(stepNumber index: Int) {
         setViewControllers([contentViewController[index]], direction: .forward, animated: true, completion: nil)
     }
-
+    
     func instanteViewController(_ index: Int) -> UIViewController {
         guard let viewController = UIStoryboard(name: "OnBoarding", bundle: Bundle.main)
             .instantiateViewController(withIdentifier: "OnBoardingSteps") as? OnBoardingStepsViewController else {
-                return UIViewController()
+            return UIViewController()
         }
-        
         viewController.item = items[index]
         return viewController
     }
@@ -69,23 +67,23 @@ extension OnBoardingViewController: UIPageViewControllerDataSource {
     func pageViewController(
         _ pageViewController: UIPageViewController,
         viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        
-        let index = contentViewController.index(of: viewController)
-        if index == 0 {
-            return nil
+            
+            let index = contentViewController.index(of: viewController)
+            if index == 0 {
+                return nil
+            }
+            return contentViewController[index! - 1]
         }
-        return contentViewController[index! - 1]
-    }
     
     func pageViewController(
         _ pageViewController: UIPageViewController,
         viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        let index = contentViewController.index(of: viewController)
-        if index == contentViewController.count - 1 {
-            return nil
+            let index = contentViewController.index(of: viewController)
+            if index == contentViewController.count - 1 {
+                return nil
+            }
+            return contentViewController[index! + 1]
         }
-        return contentViewController[index! + 1]
-    }
 }
 
 extension OnBoardingViewController: UIPageViewControllerDelegate {
@@ -94,11 +92,10 @@ extension OnBoardingViewController: UIPageViewControllerDelegate {
         didFinishAnimating finished: Bool,
         previousViewControllers: [UIViewController],
         transitionCompleted completed: Bool) {
-        
-        guard let index = contentViewController.index(of: viewControllers!.first!) else {
-            return
+            
+            guard let index = contentViewController.index(of: viewControllers!.first!) else {
+                return
+            }
+            pageControl?.currentPage = index
         }
-        
-        pageControl?.currentPage = index
-    }
 }
