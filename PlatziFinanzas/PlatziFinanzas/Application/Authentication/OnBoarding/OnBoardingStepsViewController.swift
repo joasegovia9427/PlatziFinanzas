@@ -16,7 +16,6 @@ class OnBoardingStepsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         titleLabel.text = item?.title
         descriptionLabel.text = item?.description
         onBoaringImage.image = UIImage(named: item?.imageName ?? "")

@@ -26,7 +26,6 @@ class TransactionsViewController: UIViewController {
 }
 
 extension TransactionsViewController: UITableViewDelegate {
-    
 }
 
 extension TransactionsViewController: UITableViewDataSource {

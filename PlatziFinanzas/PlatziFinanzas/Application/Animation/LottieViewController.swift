@@ -4,7 +4,6 @@
 //
 //  Created by Joaquin Segovia on 17/4/22.
 //
-
 import UIKit
 
 class LottieViewController: UIViewController {
@@ -13,7 +12,6 @@ class LottieViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
     /*
      // MARK: - Navigation
      

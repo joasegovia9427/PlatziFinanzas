@@ -41,10 +41,8 @@ class OnBoardingViewController: UIPageViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         delegate = self
         dataSource = self
-        
         pageControl?.numberOfPages = items.count
         updateContainerView(stepNumber: 0)
     }
@@ -67,7 +65,6 @@ extension OnBoardingViewController: UIPageViewControllerDataSource {
     func pageViewController(
         _ pageViewController: UIPageViewController,
         viewControllerBefore viewController: UIViewController) -> UIViewController? {
-            
             let index = contentViewController.index(of: viewController)
             if index == 0 {
                 return nil
@@ -92,7 +89,6 @@ extension OnBoardingViewController: UIPageViewControllerDelegate {
         didFinishAnimating finished: Bool,
         previousViewControllers: [UIViewController],
         transitionCompleted completed: Bool) {
-            
             guard let index = contentViewController.index(of: viewControllers!.first!) else {
                 return
             }

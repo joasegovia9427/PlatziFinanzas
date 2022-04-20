@@ -33,7 +33,6 @@ class BudgetViewController: UIViewController {
 }
 
 extension BudgetViewController: UITableViewDelegate {
-    
 }
 
 extension BudgetViewController: UITableViewDataSource {
