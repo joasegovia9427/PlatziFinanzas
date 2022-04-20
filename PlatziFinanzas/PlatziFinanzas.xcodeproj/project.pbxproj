@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2033B8FA280A670F00D95858 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033B8F9280A670F00D95858 /* TabBarViewController.swift */; };
+		2033B8FC280A6A1000D95858 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2033B8FB280A6A1000D95858 /* TransactionsCell.xib */; };
+		2033B8FE280A6AC600D95858 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033B8FD280A6AC600D95858 /* BudgetViewController.swift */; };
 		2065E18B2807A0E800B35733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065E18A2807A0E800B35733 /* AppDelegate.swift */; };
 		2065E18D2807A0E800B35733 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065E18C2807A0E800B35733 /* SceneDelegate.swift */; };
 		2065E18F2807A0E800B35733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065E18E2807A0E800B35733 /* ViewController.swift */; };
@@ -20,6 +23,11 @@
 		20668F862808ECB500BC5A6C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20668F852808ECB500BC5A6C /* Profile.storyboard */; };
 		20668F882808EF9F00BC5A6C /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20668F872808EF9F00BC5A6C /* SignIn.storyboard */; };
 		20668F8B2809001C00BC5A6C /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20668F8A2809001C00BC5A6C /* Colours.xcassets */; };
+		20668F8E2809E46200BC5A6C /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20668F8D2809E46200BC5A6C /* Shadow.swift */; };
+		20668F902809F3C600BC5A6C /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20668F8F2809F3C600BC5A6C /* OnBoarding.storyboard */; };
+		20668F922809FCCC00BC5A6C /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20668F912809FCCC00BC5A6C /* OnBoardingContainerViewController.swift */; };
+		20668F942809FFEF00BC5A6C /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20668F932809FFEF00BC5A6C /* OnBoardingViewController.swift */; };
+		20668F96280A411500BC5A6C /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20668F95280A411500BC5A6C /* OnBoardingStepsViewController.swift */; };
 		20B192872807ABC600E1319B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065E18E2807A0E800B35733 /* ViewController.swift */; };
 		20B192882807ABC600E1319B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065E18A2807A0E800B35733 /* AppDelegate.swift */; };
 		20B192892807ABC600E1319B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065E18C2807A0E800B35733 /* SceneDelegate.swift */; };
@@ -27,10 +35,17 @@
 		20B1928D2807ABC600E1319B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2065E1932807A0EB00B35733 /* Assets.xcassets */; };
 		20B1928E2807ABC600E1319B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2065E1902807A0E800B35733 /* Main.storyboard */; };
 		20B192962807AC5000E1319B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B192952807AC5000E1319B /* MapKit.framework */; };
+		20B7F5AE280CD9CA006D6B01 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B7F5AD280CD9CA006D6B01 /* Lottie.storyboard */; };
+		20B7F5B0280CD9F7006D6B01 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B7F5AF280CD9F7006D6B01 /* LottieViewController.swift */; };
+		20C50AFE280A5941006372B7 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C50AFD280A5941006372B7 /* TransactionsViewController.swift */; };
+		20C50B00280A5C8A006372B7 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C50AFF280A5C8A006372B7 /* EmptyState.xib */; };
 		20E607D22808D9F1002DB3EB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20E607D12808D9F1002DB3EB /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2033B8F9280A670F00D95858 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		2033B8FB280A6A1000D95858 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		2033B8FD280A6AC600D95858 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		2065E1872807A0E800B35733 /* PlatziFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2065E18A2807A0E800B35733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2065E18C2807A0E800B35733 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,9 +61,18 @@
 		20668F852808ECB500BC5A6C /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		20668F872808EF9F00BC5A6C /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		20668F8A2809001C00BC5A6C /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
+		20668F8D2809E46200BC5A6C /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		20668F8F2809F3C600BC5A6C /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		20668F912809FCCC00BC5A6C /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
+		20668F932809FFEF00BC5A6C /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		20668F95280A411500BC5A6C /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		20B192922807ABC600E1319B /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B192932807ABC600E1319B /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/joasegovia9427/softwaredevelopment/PlatziFinanzas/PlatziFinanzas/Production.plist; sourceTree = "<absolute>"; };
 		20B192952807AC5000E1319B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		20B7F5AD280CD9CA006D6B01 /* Lottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
+		20B7F5AF280CD9F7006D6B01 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		20C50AFD280A5941006372B7 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		20C50AFF280A5C8A006372B7 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
 		20E607D12808D9F1002DB3EB /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +116,7 @@
 		2065E1892807A0E800B35733 /* PlatziFinanzas */ = {
 			isa = PBXGroup;
 			children = (
+				20668F8C2809E43400BC5A6C /* Extensions */,
 				20B192992807AE0900E1319B /* Resources */,
 				20B192982807ADE400E1319B /* Base */,
 				20B192972807ADC900E1319B /* Application */,
@@ -112,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				20668F802808EC4100BC5A6C /* Budget.storyboard */,
+				2033B8FD280A6AC600D95858 /* BudgetViewController.swift */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
@@ -132,6 +158,14 @@
 			path = Colours;
 			sourceTree = "<group>";
 		};
+		20668F8C2809E43400BC5A6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20668F8D2809E46200BC5A6C /* Shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		20B192942807AC5000E1319B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +177,7 @@
 		20B192972807ADC900E1319B /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				20B7F5AC280CD9B5006D6B01 /* Animation */,
 				20B1929C2807AE6F00E1319B /* Main */,
 				20B1929B2807AE6300E1319B /* Authentication */,
 			);
@@ -202,6 +237,10 @@
 		20B1929D2807AE7B00E1319B /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
+				20668F8F2809F3C600BC5A6C /* OnBoarding.storyboard */,
+				20668F912809FCCC00BC5A6C /* OnBoardingContainerViewController.swift */,
+				20668F932809FFEF00BC5A6C /* OnBoardingViewController.swift */,
+				20668F95280A411500BC5A6C /* OnBoardingStepsViewController.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -218,6 +257,9 @@
 			isa = PBXGroup;
 			children = (
 				20668F7A2808EAC300BC5A6C /* Transactions.storyboard */,
+				20C50AFD280A5941006372B7 /* TransactionsViewController.swift */,
+				20C50AFF280A5C8A006372B7 /* EmptyState.xib */,
+				2033B8FB280A6A1000D95858 /* TransactionsCell.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -236,8 +278,18 @@
 				2065E1902807A0E800B35733 /* Main.storyboard */,
 				2065E18E2807A0E800B35733 /* ViewController.swift */,
 				20E607D12808D9F1002DB3EB /* View.xib */,
+				2033B8F9280A670F00D95858 /* TabBarViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		20B7F5AC280CD9B5006D6B01 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				20B7F5AD280CD9CA006D6B01 /* Lottie.storyboard */,
+				20B7F5AF280CD9F7006D6B01 /* LottieViewController.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,16 +369,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				20E607D22808D9F1002DB3EB /* View.xib in Resources */,
+				20C50B00280A5C8A006372B7 /* EmptyState.xib in Resources */,
 				2065E1972807A0EB00B35733 /* LaunchScreen.storyboard in Resources */,
 				2065E1942807A0EB00B35733 /* Assets.xcassets in Resources */,
 				20668F8B2809001C00BC5A6C /* Colours.xcassets in Resources */,
 				20668F7E2808EC1500BC5A6C /* Statistics.storyboard in Resources */,
+				2033B8FC280A6A1000D95858 /* TransactionsCell.xib in Resources */,
 				2065E1922807A0E800B35733 /* Main.storyboard in Resources */,
 				20668F812808EC4100BC5A6C /* Budget.storyboard in Resources */,
 				20668F882808EF9F00BC5A6C /* SignIn.storyboard in Resources */,
 				20668F862808ECB500BC5A6C /* Profile.storyboard in Resources */,
 				20668F842808EC9700BC5A6C /* Add.storyboard in Resources */,
 				20668F7B2808EAC300BC5A6C /* Transactions.storyboard in Resources */,
+				20B7F5AE280CD9CA006D6B01 /* Lottie.storyboard in Resources */,
+				20668F902809F3C600BC5A6C /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +403,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B7F5B0280CD9F7006D6B01 /* LottieViewController.swift in Sources */,
 				2065E18F2807A0E800B35733 /* ViewController.swift in Sources */,
+				20668F8E2809E46200BC5A6C /* Shadow.swift in Sources */,
+				20668F922809FCCC00BC5A6C /* OnBoardingContainerViewController.swift in Sources */,
+				20668F942809FFEF00BC5A6C /* OnBoardingViewController.swift in Sources */,
+				2033B8FA280A670F00D95858 /* TabBarViewController.swift in Sources */,
+				20668F96280A411500BC5A6C /* OnBoardingStepsViewController.swift in Sources */,
 				2065E18B2807A0E800B35733 /* AppDelegate.swift in Sources */,
+				2033B8FE280A6AC600D95858 /* BudgetViewController.swift in Sources */,
+				20C50AFE280A5941006372B7 /* TransactionsViewController.swift in Sources */,
 				2065E18D2807A0E800B35733 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,7 +575,7 @@
 				INFOPLIST_FILE = PlatziFinanzas/Base/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = SignIn;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -540,7 +604,7 @@
 				INFOPLIST_FILE = PlatziFinanzas/Base/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = SignIn;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

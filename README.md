@@ -1,8 +1,8 @@
 # PlatziFinanzas
 A project to get practice the Platzi's course, "Curso de Desarrollo de Interfaces con iOS" (https://platzi.com/cursos/interfaces-ios/)
 
-Start at 2022.04.10 to 2022.0_.__ with note __ (__/__)
-Platzi credential https://platzi.com/p/joasegovia9427/course/_______________/diploma/detalle/
+Start at 2022.04.10 to 2022.14.19 with note 9.31 (27/29)
+Platzi credential https://platzi.com/p/joasegovia9427/course/1428-interfaces-iois/diploma/detalle/
 
 You can see my GoodNotes in pdf:: https://drive.google.com/file/d/1XXFTAv5FIDxyEx4TecxCkw-Mlfbxz6el/view?usp=sharing
 
