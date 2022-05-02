@@ -1,7 +1,11 @@
-[![Build ](UIKit Storyboard)
-
 # PlatziFinanzas
 A project to get practice the Platzi's course, "Curso de Desarrollo de Interfaces con iOS" (https://platzi.com/cursos/interfaces-ios/)
+
+![Tech](https://img.shields.io/badge/Tech-UIKit-red)
+![Tech](https://img.shields.io/badge/Tech-StoryBoard-orange)
+![Platform](https://img.shields.io/badge/Platform-iOS-blue)
+![Dependencies](https://img.shields.io/badge/Dependencies-2-green)
+
 
 Start at 2022.04.10 to 2022.14.19 with note 9.31 (27/29)
 Platzi credential https://platzi.com/p/joasegovia9427/course/1428-interfaces-iois/diploma/detalle/
